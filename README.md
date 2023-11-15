@@ -19,8 +19,14 @@ The project is organized into the following files:
 
 **`git clone`** https://github.com/ElverJavierMorenoSanchez/software-development-internship-pico-y-placa.git
 
-2. Open index.html in a web browser to use the Pico y Placa predictor.
+2. Open a terminal and navigate to the root of the project
 
-## Web Application
+3. Run the folowing instructions in the terminal
 
-Access the Pico y Placa predictor web application [here](https://pico-and-placa-predictor.netlify.app).
+- **`npm install`**
+- **`npm start`**
+- **`Open your browser and navigate to http://localhost:8080`**
+
+## Online Web Application
+
+Access the Pico y Placa predictor online web application [here](https://pico-and-placa-predictor.netlify.app).

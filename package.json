@@ -1,0 +1,15 @@
+{
+  "name": "software-development-internship-pico-y-placa",
+  "version": "1.0.0",
+  "description": "This project implements a \"Pico y Placa\" predictor using JavaScript, HTML, and CSS. The predictor determines whether a car with a given license plate number can be on the road based on specific rules related to \"Pico y Placa.\" The project consists of three main components: JavaScript for logic, HTML for the user interface, and CSS for styling.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
