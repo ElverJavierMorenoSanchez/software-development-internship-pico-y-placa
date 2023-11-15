@@ -1,0 +1,129 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.container h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.form {
+  width: 100%;
+  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-inputs_input {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-inputs_input label {
+  margin-left: 3px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #6a6a6a;
+}
+
+.form-inputs_input input {
+  font-size: 1rem;
+  outline: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-family: inherit;
+  background-color: transparent;
+  border: 2px solid #ababab;
+  text-transform: uppercase;
+}
+
+.form-inputs_input input:focus {
+  border: 2px solid #6a6a6a;
+}
+
+.form-buttons {
+  padding: 0 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-buttons button {
+  background-color: #ababab;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 10em;
+  border-radius: 1rem;
+  color: #272727;
+  cursor: pointer;
+}
+
+.form-buttons button:hover {
+  background: #6a6a6a;
+  color: white;
+}
+
+.result {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 0 5px #ccc;
+  display: none;
+  background: #1bff72;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.result.pico_placa {
+  background: #ff1b1b;
+  color: #ffffff;
+}

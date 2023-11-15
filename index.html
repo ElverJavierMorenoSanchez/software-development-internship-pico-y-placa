@@ -4,38 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pico y Placa Dectector</title>
+  <title>Pico y Placa Predictor</title>
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
   <div class="container">
     <header>
-      <div class="title">Pico y Placa Dectector</div>
+      <h1 class="title">Pico y Placa Predictor</h1>
     </header>
-    <main>
+    <main class="main-content">
       <form id="form" class="form">
         <div class="form-inputs">
-          <div class="form-input">
+          <div class="form-inputs_input">
             <label for="plateNumber">License Plate Number</label>
-            <input id="plateNumber" type="text" minlength="6" maxlength="8">
+            <input id="plateNumber" type="text" minlength="6" maxlength="8" placeholder="ABC-1234" required>
           </div>
-          <div class="form-input">
-            <label for="date">Date</label>
-            <input id="date" type="date">
+          <div class="form-inputs_input">
+            <label for="date">Date (mm/dd/yyyy)</label>
+            <input id="date" type="date" required>
           </div>
-          <div class="form-input">
-            <label for="time">Time (24H)</label>
-            <input id="time" type="text" maxlength="5">
+          <div class="form-inputs_input">
+            <label for="time">Time (HH:mm - 12h)</label>
+            <input id="time" type="time" maxlength="5" placeholder="06:30">
           </div>
         </div>
         <div class="form-buttons">
-          <div class="form-button">
-            <button type="submit" id="submit">Submit</button>
-          </div>
+          <button type="submit" id="submit">Submit</button>
+          <button type="button" id="cleanBtn">Clean</button>
         </div>
       </form>
-      <div class="result" id="result"></div>
+      <div class="result pico_placa" id="result"></div>
     </main>
     <footer></footer>
   </div>
