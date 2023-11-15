@@ -16,7 +16,8 @@ The project is organized into the following files:
 ## Usage
 
 1. Clone the repository
-git clone https://github.com/ElverJavierMorenoSanchez/software-development-internship-pico-y-placa.git
+
+**`git clone`** https://github.com/ElverJavierMorenoSanchez/software-development-internship-pico-y-placa.git
 
 2. Open index.html in a web browser to use the Pico y Placa predictor.
 
