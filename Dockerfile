@@ -1,8 +1,10 @@
-FROM node:18-alphine AS base
+FROM node:18-alpine AS base
 
 WORKDIR /app
 
 COPY package.json package-lock.json ./
 RUN npm ci
+
+COPY . .
 
 CMD ["npm","start"]
