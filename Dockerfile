@@ -1,4 +1,4 @@
-FROM node:alphine AS base
+FROM node:18-alphine AS base
 
 WORKDIR /app
 
